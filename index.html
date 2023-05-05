@@ -3,6 +3,11 @@
   <script src="https://https://force-energy-5374-dev-ed.scratch.lightning.force.com.my.salesforce.com/lightning/lightning.out.js"></script>
   </head>
 <body>
+  <script>
+    $Lightning.use([AppName], function() {
+      $Lightning.createComponent("[ComponentName]", {}, [iframe], function(cmp) {});
+    }, [InstanceURL], [OAuthKey]);
+  </script>
 hello there
 </body>
 </html>
